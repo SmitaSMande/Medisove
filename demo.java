@@ -14,7 +14,7 @@ public class demo {
 		driver.findElement(By.name("user_name")).sendKeys("9970945898");
 		driver.findElement(By.name("user_password")).sendKeys("medisolve@123");
 		driver.findElement(By.xpath("//span[.='Login']")).click();
-		driver.quit();
+	
 		
 		
 		
